@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Light</title>
+    <link rel="shortcut icon" href="dist/images/logo-only.svg" type="image/x-icon">
+    <link rel="stylesheet" href="dist/bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/fontawesome6/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/styles.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- start navbar -->
+        <nav class="navbar">
+            <a role="button" data-toggler="sidebar" href="#" class="sidebar-toggler">
+                <i class="fa-solid fa-bars nav-icon"></i>
+            </a>
+            <span class="navbar-title ms-3">Dashboard</span>
+            <div class="navbar-right">
+                <div class="navbar-notification">
+                    <i class="fa-regular fa-bell nav-icon"></i>
+                </div>
+                <div class="profile-information">
+                    <img src="dist/images/avatar.jpg" alt="avatar" class="avatar-user">
+                    <span class="user-greetings">Hi, Administrator</span>
+                    <div class="more-actions">
+                        <ul class="nav nav-profile">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-edit nav-icon"></i>Edit
+                                    Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-sign-out nav-icon"></i>Sign Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+
+        <!-- start sidebar -->
+        <aside class="sidebar show">
+            <div class="sidebar-brand">
+                <img src="dist/images/logo-text.svg" alt="company logo" class="brand-logo">
+            </div>
+            <div class="input-group input-group-search-sidebar my-3">
+                <input type="text" class="form-control" placeholder="Search menu..." aria-label="Search menu..."
+                    aria-describedby="search_icon">
+                <span class="input-group-text" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="sidebar-menu">
+                <ul class="nav nav-pills nav-sidebar">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-gauge nav-icon"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item nav-item-dropdown">
+                        <a class="nav-link" href="#" role="button"><i class="fa-solid fa-sliders nav-icon"></i>
+                            <p>Components<i class="fa-solid fa-angle-right nav-icon-dropdown"></i></p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link">
+                                    <i class="fa-solid fa-table nav-icon"></i>
+                                    <p>Table</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./index2.html" class="nav-link">
+                                    <i class="fa-regular fa-circle nav-icon"></i>
+                                    <p>Dashboard v2</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./index3.html" class="nav-link">
+                                    <i class="fa-regular fa-circle nav-icon"></i>
+                                    <p>Dashboard v3</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-gauge nav-icon"></i>Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- end sidebar -->
+
+        <!-- content wrapper -->
+        <div class="content-wrapper collapsed">
+            <span>halos</span>
+        </div>
+        <!-- end -->
+    </div>
+
+    <script src="dist/js/jquery-3.7.0.min.js"></script>
+    <script src="dist/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/fontawesome6/js/all.min.js"></script>
+    <script src="dist/js/scripts.js"></script>
+</body>
+
+</html>
